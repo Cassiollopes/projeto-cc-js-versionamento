@@ -1,7 +1,9 @@
-unction autenticarUsuario(email, senha) {
- if (email === "aluno@exemplo.com" && senha === "senha123") {
- return "Autenticação bem-sucedida";
+function autenticarUsuario(email, senha) {
+ if (email === "aluno@exemplo.com" && senha === "senha123")
+{
+ return "Login bem-sucedido";
  }
- return "Falha na autenticação";
+ return "Erro no login";
 }
 module.exports = { autenticarUsuario };
+
